@@ -14,7 +14,7 @@ function App() {
             <Nav/>
           <Switch>
               <Route path={"/cool"} component={Cool}/>
-              <Route path={"/data/:id"} component={Data}/>
+              <Route path={"/data"} component={Data}/>
             <Route exact path={"/"} component={Home}/>
               <Route exact path={"/:id"} component={Color}/>
           </Switch>
